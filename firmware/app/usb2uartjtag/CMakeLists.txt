@@ -7,5 +7,3 @@ set(TARGET_REQUIRED_SRCS ${BSP_COMMON_DIR}/usb/usb_dc.c
                         ${CMAKE_CURRENT_LIST_DIR}/usb_descriptor.c)
 set(mains main.c)
 generate_bin()
-
-
